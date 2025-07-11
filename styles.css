@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    background-color: #f5f8ff;
+}
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -20,6 +23,7 @@
 /*Primary Button Text*/
 
 .p_btn{
+    display: block;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -197,6 +201,7 @@ main{
 }
 
 .rating_card{
+    background-color: rgba(255, 255, 255, 0.5);
     max-width: 366.67px;
     padding: 24px;
     border: 1px solid rgba(242, 237, 237, 1);
@@ -251,4 +256,42 @@ main{
     font-size: 16px;
     font-weight: 400;
     color: #B3B3B3;
+}
+
+/*Optional Part*/
+
+.box {
+    max-width: 840px;
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.box h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box span{
+    display: block;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.box button{
+    font-weight: 500;
+    margin: 20px auto;
+}
+
+.box img{
+    width: 100%;
+    border: none;
+    border-radius: 48px;
 }
