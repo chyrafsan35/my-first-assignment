@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-fonts {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*Primary Button Text*/
+
+.p_btn{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Header Part*/
+
+header{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro_bar{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+.intro_bar h3{
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.banner{
+    max-width: 905px;
+    margin: 0 auto;
+    padding: 158px 0px 152px 0px;
+}
+
+.banner h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+.banner button{
+    display: block;
+    margin: 0 auto;
+}
+
+/*main common property*/
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*section common property*/
+
+.section1{
+    margin-top: 116px;
+}
+
+.section2{
+    margin-top: 137px;
+}
+
+.section3{
+    margin-top: 92.23px;
+}
+
+/*Action Part*/
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_part{
+    width: 517px;
+}
+
+.text_part h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.text_part span{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+    display: block;
+    margin-bottom: 23px;
+}
+
+.img_part{
+    max-width: 403px;
+}
+
+.img_part img{
+    width: 100%;
+    border: none;
+    border-radius: 48px;
+}
+
+/*Productive User Part*/
