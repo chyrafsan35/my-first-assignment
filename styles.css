@@ -295,3 +295,64 @@ main{
     border: none;
     border-radius: 48px;
 }
+
+/*Newsletter Part*/
+
+.newsletter{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0px;
+}
+
+.col1{
+    max-width: 528px;
+}
+
+.col1 h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight: 700;
+    color: black;
+}
+
+.col2 label{
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.col2 input{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0px 20px 32px;
+    width: 497px;
+    margin-bottom: 19px;
+    border: 1px solid rgba(5, 80, 255, 0.29);
+    border-radius: 10px;
+}
+
+textarea{
+    display: block;
+    padding: 20px 0px 20px 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 19px;
+    border: 1px solid rgba(5, 80, 255, 0.29);
+    border-radius: 10px;
+}
+
+.col2 button{
+    padding: 19px 201px;
+    margin: 0 auto;;
+}
+
+/*Footer Part*/
