@@ -352,7 +352,8 @@ textarea{
 }
 
 .col2 button{
-    padding: 19px 201px;
+    padding: 19px 0px;
+    width: 100%;
     margin: 0 auto;;
 }
 
@@ -394,6 +395,7 @@ footer{
     font-weight: 400;
     color: #8987A1;
     margin-right: 48px;
+    text-align: center;
 }
 
 /*shob btn hover baki*/
