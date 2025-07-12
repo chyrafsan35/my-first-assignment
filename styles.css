@@ -307,6 +307,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 71px 0px;
+    margin-bottom: 14px;
 }
 
 .col1{
@@ -396,3 +397,7 @@ footer{
 }
 
 /*shob btn hover baki*/
+
+button:hover {
+    background-color: #6c67fb;
+}
